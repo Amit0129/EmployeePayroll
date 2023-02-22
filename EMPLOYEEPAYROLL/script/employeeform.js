@@ -1,13 +1,19 @@
 function submitForm() {
     var name = $('#name').val();
-    var profile = $('input[name=profile]:checked').val();
-    var gender = $('input[name=gender]:checked').val();
-    var department = $('input[name=department]:checked').val();
+    var profile = $('input[name="profile"]:checked').val();
+    var gender = $('input[name="gender"]:checked').val();
+    // var department = $('input[name=department]:checked').val();
+    var department = new Array();
+    $('input[name="department"]:checked').each(function(){
+        department.push(this.value)
+    })
+
+
     var salary = $('#salary').val();
     var day = $('#day').val();
     var month = $('#month').val();
     var year = $('#year').val();
-    var note = $('#note').val;
+    var note = $('#note').val();
 
     let reqPayload = {
         "name": name,

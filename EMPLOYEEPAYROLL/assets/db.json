@@ -15,28 +15,20 @@
       "notes": "Kumar"
     },
     {
-      "name": "Amit",
-      "profileUrl": "../assets/prof1.png",
-      "gender": "male",
-      "departMent": "HR",
-      "salary": "80000",
-      "day": "29",
-      "month": "Jan",
-      "year": "2016",
-      "notes": "undefined",
-      "id": 2
-    },
-    {
-      "name": "Amit",
-      "profileUrl": "../assets/prof4.png",
+      "name": "amit",
+      "profileUrl": "../assets/prof3.png",
       "gender": "female",
-      "departMent": "Sales",
-      "salary": "80000",
-      "day": "29",
-      "month": "Jan",
-      "year": "2016",
-      "notes": "undefined",
-      "id": 3
+      "departMent[]": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "70000",
+      "day": "16",
+      "month": "Aug",
+      "year": "2018",
+      "notes": "sdsdg",
+      "id": 2
     }
   ]
 }
