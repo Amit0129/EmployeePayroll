@@ -5,7 +5,7 @@ function submitForm() {
     // var department = $('input[name=department]:checked').val();
     var department = new Array();
     $('input[name="department"]:checked').each(function(){
-        department.push(this.value)
+        department.push($(this).val())
     })
 
 
