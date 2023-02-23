@@ -9,26 +9,41 @@
         "HR"
       ],
       "salary": "50000",
-      "day": "1",
-      "month": "Jan",
-      "year": "2022",
+      "startDate": "1 Jan 2022",
       "notes": "Kumar"
     },
     {
-      "name": "amit",
-      "profileUrl": "../assets/prof3.png",
+      "name": "Amit",
+      "profileUrl": "../assets/prof2.png",
       "gender": "female",
       "departMent[]": [
         "Sales",
-        "Finance",
-        "Engineer"
+        "Finance"
       ],
-      "salary": "70000",
-      "day": "16",
-      "month": "Aug",
-      "year": "2018",
-      "notes": "sdsdg",
+      "salary": "50000",
+      "startDate": "18 Sept 2022",
+      "notes": "hrthrt",
       "id": 2
+    },
+    {
+      "name": "Nayak",
+      "profileUrl": "../assets/prof4.png",
+      "gender": "female",
+      "departMent[]": "Sales",
+      "salary": "80000",
+      "startDate": "16 Sept 2018",
+      "notes": "fdafad",
+      "id": 3
+    },
+    {
+      "name": "Dj",
+      "profileUrl": "../assets/prof3.png",
+      "gender": "male",
+      "departMent[]": "Finance",
+      "salary": "70000",
+      "startDate": "17 Oct 2017",
+      "notes": "sdsad",
+      "id": 4
     }
   ]
 }

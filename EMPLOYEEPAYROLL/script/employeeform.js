@@ -2,17 +2,12 @@ function submitForm() {
     var name = $('#name').val();
     var profile = $('input[name="profile"]:checked').val();
     var gender = $('input[name="gender"]:checked').val();
-    // var department = $('input[name=department]:checked').val();
     var department = new Array();
     $('input[name="department"]:checked').each(function(){
         department.push($(this).val())
     })
-
-
     var salary = $('#salary').val();
-    var day = $('#day').val();
-    var month = $('#month').val();
-    var year = $('#year').val();
+    var startDate = +$('#day').val()+" "+$('#month').val()+" "+$('#year').val();
     var note = $('#note').val();
 
     let reqPayload = {
@@ -21,9 +16,7 @@ function submitForm() {
         "gender": gender,
         "departMent": department,
         "salary": salary,
-        "day": day,
-        "month": month,
-        "year": year,
+        "startDate":startDate,
         "notes": note
     }
     console.log(reqPayload);
