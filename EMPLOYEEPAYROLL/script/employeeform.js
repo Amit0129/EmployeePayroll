@@ -2,10 +2,11 @@ function submitForm() {
     var name = $('#name').val();
     var profile = $('input[name="profile"]:checked').val();
     var gender = $('input[name="gender"]:checked').val();
-    var department = new Array();
-    $('input[name="department"]:checked').each(function(){
-        department.push($(this).val())
-    })
+    var department = $('input[name="department"]:checked').val();
+    // var department = new Array();
+    // $('input[name="department"]:checked').each(function(){
+    //     department.push($(this).val())
+    // })
     var salary = $('#salary').val();
     var startDate = +$('#day').val()+" "+$('#month').val()+" "+$('#year').val();
     var note = $('#note').val();

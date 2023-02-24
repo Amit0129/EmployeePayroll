@@ -1,63 +1,24 @@
 {
   "employee": [
     {
-      "id": 1,
-      "name": "Amit Kumar",
+      "name": "Kumari",
       "profileUrl": "../assets/prof1.png",
-      "gender": "male",
-      "departMent": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "50000",
-      "startDate": "1 Jan 2022",
-      "notes": "Kumar"
-    },
-    {
-      "name": "Amit",
-      "profileUrl": "../assets/prof2.png",
       "gender": "female",
-      "departMent[]": [
-        "Sales",
-        "Finance"
-      ],
-      "salary": "50000",
-      "startDate": "18 Sept 2022",
-      "notes": "hrthrt",
+      "departMent": "Sales",
+      "salary": "60000",
+      "startDate": "18 Oct 2022",
+      "notes": "fafaf",
       "id": 2
     },
     {
-      "name": "Nayak",
-      "profileUrl": "../assets/prof4.png",
+      "name": "Noki",
+      "profileUrl": "../assets/prof2.png",
       "gender": "female",
-      "departMent[]": "Sales",
-      "salary": "80000",
-      "startDate": "16 Sept 2018",
-      "notes": "fdafad",
+      "departMent": "Finance",
+      "salary": "60000",
+      "startDate": "15 Oct 2020",
+      "notes": "vssg",
       "id": 3
-    },
-    {
-      "name": "Dj",
-      "profileUrl": "../assets/prof3.png",
-      "gender": "male",
-      "departMent[]": "Finance",
-      "salary": "70000",
-      "startDate": "17 Oct 2017",
-      "notes": "sdsad",
-      "id": 4
-    },
-    {
-      "name": "Amit Kumar",
-      "profileUrl": "../assets/prof4.png",
-      "gender": "male",
-      "departMent[]": [
-        "Sales",
-        "Finance"
-      ],
-      "salary": "80000",
-      "startDate": "16 Oct 2020",
-      "notes": "fgdf",
-      "id": 5
     }
   ]
 }
