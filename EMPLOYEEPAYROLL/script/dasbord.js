@@ -16,6 +16,10 @@ $(document).ready(function(){
                 employeeData += '<td>'+value.departMent+'</td>';
                 employeeData += '<td>'+value.salary+'</td>';
                 employeeData += '<td>'+value.startDate+'</td>';
+                employeeData += '<td>';
+                employeeData += '<img onclik = "deleteRecord()" src="../assets/delete-black-18dp.svg">';
+                employeeData += '<img src="../assets/create-black-18dp.svg">';
+                employeeData += '</td>';
                 employeeData += '</tr>';
             });
             $('#employee_table').append(employeeData);

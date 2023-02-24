@@ -6,7 +6,8 @@
       "profileUrl": "../assets/prof1.png",
       "gender": "male",
       "departMent": [
-        "HR"
+        "HR",
+        "Sales"
       ],
       "salary": "50000",
       "startDate": "1 Jan 2022",
@@ -44,6 +45,19 @@
       "startDate": "17 Oct 2017",
       "notes": "sdsad",
       "id": 4
+    },
+    {
+      "name": "Amit Kumar",
+      "profileUrl": "../assets/prof4.png",
+      "gender": "male",
+      "departMent[]": [
+        "Sales",
+        "Finance"
+      ],
+      "salary": "80000",
+      "startDate": "16 Oct 2020",
+      "notes": "fgdf",
+      "id": 5
     }
   ]
 }
