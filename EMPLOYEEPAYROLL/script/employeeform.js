@@ -8,7 +8,7 @@ function submitForm() {
     //     department.push($(this).val())
     // })
     var salary = $('#salary').val();
-    var startDate = +$('#day').val()+" "+$('#month').val()+" "+$('#year').val();
+    var startDate = $('#day').val()+" "+$('#month').val()+" "+$('#year').val();
     var note = $('#note').val();
 
     let reqPayload = {

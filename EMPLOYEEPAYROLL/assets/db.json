@@ -11,14 +11,34 @@
       "id": 2
     },
     {
-      "name": "Noki",
+      "name": "Kunal",
+      "profileUrl": "../assets/prof3.png",
+      "gender": "male",
+      "departMent": "HR",
+      "salary": "70000",
+      "startDate": "17 Oct 2019",
+      "notes": "fsdff",
+      "id": 3
+    },
+    {
+      "name": "Afgdfg",
       "profileUrl": "../assets/prof2.png",
       "gender": "female",
-      "departMent": "Finance",
+      "departMent": "Sales",
+      "salary": "70000",
+      "startDate": "15 Oct 2018",
+      "notes": "dfg",
+      "id": 4
+    },
+    {
+      "name": "Kumar",
+      "profileUrl": "../assets/prof3.png",
+      "gender": "male",
+      "departMent": "Sales",
       "salary": "60000",
-      "startDate": "15 Oct 2020",
-      "notes": "vssg",
-      "id": 3
+      "startDate": "13 Oct 2020",
+      "notes": "sdafdaff",
+      "id": 5
     }
   ]
 }
